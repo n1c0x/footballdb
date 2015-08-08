@@ -1,0 +1,176 @@
+body{
+	background: white url('../img/haching_lines.png') repeat center fixed;
+}
+.none{
+	!important;
+}
+#blue{
+	height:70px;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#369), to(#036));
+	background: -webkit-linear-gradient(top, #036, #369);
+	background: -moz-linear-gradient(top, #036, #369);
+	background: -ms-linear-gradient(top, #036, #369);
+	background: -o-linear-gradient(top, #036, #369);
+}
+#blue img{
+	width:120px;
+	height:120px;
+}
+.green, .green td, .green tr{
+	background-color: green;
+	margin:auto;
+}
+.green td{
+	height:50px;
+	width:140px !important;
+	max-width:140px !important;
+}
+.green td select{
+	position: relative;
+	top:8px;
+	left:35px;
+}
+.green td button{
+	width:180px;
+	position: relative;
+	top:10px;
+	left:18px;	
+}
+#accordion3 ul{
+	list-style-type: none;
+}
+#accordion3 li:before{
+	content:'- ';
+}
+#uebung-suchen{
+	margin-bottom: 20px !important;
+}
+.margin-unten{
+	margin-bottom:50px;
+}
+.margin-oben{
+	margin-top:50px;
+}
+.margin-oben125{
+	margin-top:125px;	
+}
+.margin-oben20{
+	margin-top:20px;
+}
+.margin-oben260{
+	margin-top:260px;
+}
+.span10.text-center textarea{
+	width:340px;
+	height:150px;
+	max-width:340px;
+	max-height:150px;
+	min-width:340px;
+	min-height:150px;
+}
+.bild {
+	border:1px solid #DDD;
+}
+.bild-small{
+	max-width:150px;
+	height:80px;
+}
+.bild-large{
+	margin:0px auto !important;
+	max-width: 900px;
+}
+#top-table{
+	border-bottom: 3px solid #DDD !important;
+	border-top: 3px solid #DDD !important;
+}
+#top-margin-buttons{
+	padding: 37px 0px;
+}
+.td-width-small{
+	max-width:105px !important;
+	width:105px !important;
+	min-width:105px !important;
+}
+.large{
+	font-size: 18px;
+}
+/** Beginning of image popup **/
+div.lightbox
+{	
+	height:auto;
+	text-align:center;
+	display:none;
+	position:fixed;
+	top:0px;left:0px;right:0px;bottom:0px;
+}
+div.lightbox:target
+{
+	display: block;
+	position: fixed;
+	z-index: 20;
+	background-color: rgba(100,100,100,.8);
+	text-align: center;
+}
+
+div.lightbox:target img
+{
+	float:none;
+	height:600px;
+	width:auto;
+	margin:auto;
+	margin-top:200px;
+	box-shadow:0px 0px 10px 5px #000;
+}
+/** End of image popup **/
+.rounded-border{
+	border:1px solid black;
+	border-radius: 20px;
+}
+.player{
+	width:400px;
+	height:600px;
+	padding:10px;
+	margin:10px;
+	text-align: center;
+	float:left;
+}
+.player img{
+	max-height: 300px;
+}
+.player table{
+	text-align: left;
+	margin-left: 70px;
+}
+.player table td{
+	padding-left: 20px;
+}
+#table-spiele td, #table-spiele th{
+	vertical-align: middle !important;
+	text-align:center;
+}
+#table-tore{
+	width:350px;
+	margin:0px auto;
+}
+#div-center{
+	margin:0px auto !important;
+}
+.no_underline{
+	 text-decoration:none !important;
+}
+.training-container{
+	padding-bottom: 20px;
+}
+.accordion-group{
+	border:1px solid silver !important;
+}
+.white{
+	color:#FFF !important;
+}
+.success{
+	background-color:#468847;
+	color:#FFF;
+	margin-bottom: 5px;
+	padding: 2px 4px;
+	border-radius: 3px;
+}
